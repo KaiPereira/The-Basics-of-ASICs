@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import { page } from '$app/state';
 
 	import '../global.css'
 
@@ -12,19 +13,19 @@
 
 <header>
 	<h1>The Basics of ASIC's</h1>
-	<p>An initiative to get teenagers designing and manufacturing their own ASIC's and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a>
+	<p>An initiative to get teenagers designing and manufacturing their own ASIC's and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
 </header>
 <nav>
 	<ul>
-		<li>
-			<a href="/phase-1">
+		<li class:current={page.url.pathname === "/"}>
+			<a href="/">
 				<div>
 					<span>Phase 1</span>
 					<p>(Design)</p>
 				</div>
 			</a>
 		</li>
-		<li>
+		<li class:current={page.url.pathname === "/phase-2"}>
 			<a href="/phase-2">
 				<div>
 					<span>Phase 2</span>
@@ -32,7 +33,7 @@
 				</div>
 			</a>
 		</li>
-		<li>
+		<li class:current={page.url.pathname === "/phase-3"}>
 			<a href="/phase-3">
 				<div>
 					<span>Phase 3</span>

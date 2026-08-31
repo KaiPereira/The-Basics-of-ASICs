@@ -1,5 +1,15 @@
 /* Global, default stylings */
 
+:root {
+	--dark-background: #212126;
+	--dark-header-text: #efefef;
+	--dark-paragraph-text: #a9a9a9;
+	--light-header-text: #000;
+	--light-paragraph-text: #000;
+	--accent-text: #cd2a89;
+	--max-content-width: 700px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -32,16 +42,38 @@ h3 {
 	line-height: 1.5;
 }
 
+a {
+	color: var(--accent-text);
+	transition: opacity 0.3s;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
 /* Component Styling */
+header, nav {
+	background-color: var(--dark-background);
+	background-image: url("/trace-pattern.svg");
+	background-repeat: repeat;
+	background-size: 200px 200px;
+}
+
 header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	padding: 40px;
+
+	h1 {
+		color: var(--dark-header-text);
+	}
 
 	p {
+		color: var(--dark-paragraph-text);
 		width: 100%;
-		max-width: 700px;
+		max-width: var(--max-content-width);
 	}
 }
 
@@ -51,28 +83,44 @@ nav {
 		justify-content: center;
 		list-style-type: none;
 		gap: 50px;
+		margin: 0;
 
 		li {
+			position: relative;
+			padding-bottom: 20px;
 			text-align: center;
+			transition: opacity 0.3s;
+
+			a {
+				color: var(--dark-paragraph-text);
+			}
 
 			p {
 				margin: 0;
 			}
 
 			span {
+				opacity: 0.5;
 				font-size: 0.9em;
 			}
 
 			&::after {
 				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
 				display: inline-block;
 				width: 100%;
-				height: 5px;
-				transition: background-color 0.2s;
+				height: 3px;
+				transition: background-color 0.3s;
 			}
 
-			&:hover::after {
-				background-color: blue;
+			&:hover::after, &.current::after {
+				background-color: var(--dark-paragraph-text);
+			}
+
+			&:hover, &.current {
+				opacity: 0.8;
 			}
 		}
 	}
