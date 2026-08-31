@@ -23,7 +23,7 @@ function parseMarkdown(raw, filepath) {
 		filepath,
 		filename,
 		folder,
-		slug:  isHomePage ? "/" : filename.replace(".md", ""),
+		slug:  isHomePage ? "" : filename.replace(".md", ""),
 		metadata: data,
 		content: marked(content)
 	};
@@ -32,6 +32,5 @@ function parseMarkdown(raw, filepath) {
 const posts = Object.entries(files).map(([path, raw]) => parseMarkdown(raw, path));
 
 export function getPostBySlug(slug) {
-	console.log(posts);
 	return posts.find((post) => post.slug === slug);
 }
