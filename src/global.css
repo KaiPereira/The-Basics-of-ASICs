@@ -75,9 +75,9 @@ header {
 	}
 
 	p {
-		color: var(--dark-paragraph-text);
 		width: 100%;
 		max-width: var(--max-content-width);
+		color: var(--dark-paragraph-text);
 	}
 }
 

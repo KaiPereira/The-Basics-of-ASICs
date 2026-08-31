@@ -26,16 +26,16 @@
 					</div>
 				</a>
 			</li>
-			<li class:current={page.url.pathname === "/phase-2"}>
-				<a href="/phase-2">
+			<li class:current={page.url.pathname === "/emulation"}>
+				<a href="/emulation">
 					<div>
 						<span>Phase 2</span>
 						<p>(Emulation)</p>
 					</div>
 				</a>
 			</li>
-			<li class:current={page.url.pathname === "/phase-3"}>
-				<a href="/phase-3">
+			<li class:current={page.url.pathname === "/fabrication"}>
+				<a href="/fabrication">
 					<div>
 						<span>Phase 3</span>
 						<p>(Fabrication)</p>
