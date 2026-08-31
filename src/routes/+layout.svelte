@@ -4,7 +4,7 @@
 
 	import '../global.css'
 
-	let { children } = $props();
+	let { data, children } = $props();
 </script>
 
 <svelte:head>
@@ -45,5 +45,9 @@
 		</ul>
 	</nav>
 </div>
+
+<main>
+	<div>{@html data.post.content}</div>
+</main>
 
 {@render children()}
