@@ -1,12 +1,16 @@
 /* Global, default stylings */
 
 :root {
-	--dark-background: #212126;
-	--dark-header-text: #efefef;
+	--dark-background: #252126;
+	--dark-header-text: #faf6f9;
 	--dark-paragraph-text: #a9a9a9;
-	--light-header-text: #000;
-	--light-paragraph-text: #000;
-	--accent-text: #cd2a89;
+
+	--light-background: #faf6f9;
+	--light-header-text: #252126;
+	--light-paragraph-text: #4d4a4d;
+
+	--accent: #cd2a89;
+
 	--max-content-width: 700px;
 }
 
@@ -43,7 +47,7 @@ h3 {
 }
 
 a {
-	color: var(--accent-text);
+	color: var(--accent);
 	transition: opacity 0.3s;
 
 	&:hover {
@@ -52,7 +56,7 @@ a {
 }
 
 /* Component Styling */
-header, nav {
+.bg-image {
 	background-color: var(--dark-background);
 	background-image: url("/trace-pattern.svg");
 	background-repeat: repeat;
