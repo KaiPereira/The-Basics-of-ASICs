@@ -11,13 +11,36 @@
 </svelte:head>
 
 <header>
-	<h1>The Basics of ASICS</h1>
+	<h1>The Basics of ASIC's</h1>
 	<p>An initiative to get teenagers designing and manufacturing their own ASIC's and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a>
 </header>
 <nav>
-	<a href="/phase-1">Phase 1 (Design)</a>
-	<a href="/phase-2">Phase 2 (Emulation)</a>
-	<a href="/phase-3">Phase 3 (Fabrication)</a>
+	<ul>
+		<li>
+			<a href="/phase-1">
+				<div>
+					<span>Phase 1</span>
+					<p>(Design)</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="/phase-2">
+				<div>
+					<span>Phase 2</span>
+					<p>(Emulation)</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="/phase-3">
+				<div>
+					<span>Phase 3</span>
+					<p>(Fabrication)</p>
+				</div>
+			</a>
+		</li>
+	</ul>
 </nav>
 
 {@render children()}
