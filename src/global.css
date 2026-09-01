@@ -1,5 +1,4 @@
 /* Global, default stylings */
-
 :root {
 	--dark-background: #252126;
 	--dark-header-text: #faf6f9;
@@ -143,5 +142,45 @@ main {
 
 	p, li {
 		color: var(--light-paragraph-text);
+	}
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding-top: 60vh;
+
+	ul {
+		position: relative;
+		display: flex;
+		gap: 50px;
+		padding: 10px 100px 0px 100px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background: var(--light-paragraph-text);
+			opacity: 0.2;
+		}
+
+		li {
+			list-style: none;
+
+			a {
+				display: flex;
+				opacity: 0.5;
+				color: var(--light-paragraph-text);
+
+				svg {
+					width: 15px;
+					margin-left: 5px;
+					fill: var(--light-paragraph-text);
+				}
+			}
+		}
 	}
 }
