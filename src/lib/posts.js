@@ -17,7 +17,7 @@ function parseMarkdown(raw, filepath) {
 	const filename = parts.at(-1);
 	const folder = parts.at(-2);
 
-	const isHomePage = filename === "design.md";
+	const isHomePage = filename === "main.md";
 
 	return {
 		filepath,

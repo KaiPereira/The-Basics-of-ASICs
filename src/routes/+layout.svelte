@@ -21,6 +21,14 @@
 			<li class:current={page.url.pathname === "/"}>
 				<a href="/">
 					<div>
+						<span>Phase 0</span>
+						<p>(Intro)</p>
+					</div>
+				</a>
+			</li>
+			<li class:current={page.url.pathname === "/design"}>
+				<a href="/design">
+					<div>
 						<span>Phase 1</span>
 						<p>(Design)</p>
 					</div>
