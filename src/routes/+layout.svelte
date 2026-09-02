@@ -59,6 +59,7 @@
 </main>
 
 <footer>
+	<p>Last updated: {data.updated_at}</p>
 	<ul>
 		<li>
 			<a href="/resources">Resources</a>

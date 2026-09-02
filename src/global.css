@@ -20,7 +20,8 @@
 html {
 	font-size: 1.1rem;
 	overflow-wrap: break-word;
-	line-height: 1.8; -webkit-text-size-adjust: 100%;
+	line-height: 1.8; 
+	-webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -147,14 +148,21 @@ main {
 
 footer {
 	display: flex;
-	justify-content: center;
-	padding-top: 60vh;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 55vh;
+
+	p {
+		opacity: 0.5;
+		color: var(--light-paragraph-text);
+	}
 
 	ul {
 		position: relative;
 		display: flex;
 		gap: 50px;
 		padding: 10px 100px 0px 100px;
+		margin-top: 0px;
 
 		&::before {
 			content: "";
