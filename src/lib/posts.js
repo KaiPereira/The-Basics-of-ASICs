@@ -9,7 +9,11 @@ renderer.image = ({href, title, text}) => {
 
 marked.setOptions({ renderer });
 
-const files = import.meta.glob("/src/lib/posts/**/*.md", { eager: true, as: "raw" });
+const files = import.meta.glob("/src/lib/posts/**/*.md", {
+	eager: true,
+	query: "?raw",
+	import: "default"
+});
 
 function parseMarkdown(raw, filepath) {
 	const { data, content } = matter(raw);
