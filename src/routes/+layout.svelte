@@ -9,12 +9,13 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>The Basics of ASICs</title>
 </svelte:head>
 
 <div class="bg-image">
 	<header>
-		<h1>The Basics of ASIC's</h1>
-		<p>An initiative to get teenagers designing and manufacturing their own ASIC's and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
+		<h1>The Basics of ASICs</h1>
+		<p>An initiative to get teenagers designing and manufacturing their own ASICs and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
 	</header>
 	<nav>
 		<ul>
