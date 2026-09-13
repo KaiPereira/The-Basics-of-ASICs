@@ -22,7 +22,7 @@ We'll get to the other steps during the tutorial, but understanding how Verilog 
 
 ### Installing the dependencies
 
-Now when you're designing ASICs, there's many tools that you'll use be using in order to program, test, simulate, route, etc. All of these tools have been conveniently packaged into a singular binary software distribution that you'll [need to install here](https://github.com/yosyshq/oss-cad-suite-build). Once you've added this to your environment variables, these tools will be accessible at anytime on your computer!
+Now when you're designing ASICs, there's many tools that you'll use be using in order to program, test, simulate, route, etc. All of these tools have been conveniently packaged into a singular binary software distribution called the OSS CAD Suite that you'll [need to install here](https://github.com/yosyshq/oss-cad-suite-build). Once you've added this to your environment variables, these tools will be accessible at anytime on your computer!
 
 ### Using the Tiny Tapeout template
 
