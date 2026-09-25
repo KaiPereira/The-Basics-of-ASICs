@@ -16,38 +16,30 @@
 	<header>
 		<h1>The Basics of ASICs</h1>
 		<p>An initiative to get teenagers designing and manufacturing their own ASICs and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
+		<a href="https://hackclub.com/" target="_blank" rel="noreferrer">
+			<img src="/hack-club-logo.svg" alt="Hack Club Logo" />
+		</a>
 	</header>
 	<nav>
 		<ul>
 			<li class:current={page.url.pathname === "/"}>
 				<a href="/">
 					<div>
-						<span>Phase 0</span>
-						<p>(Intro)</p>
+						<p>Intro</p>
 					</div>
 				</a>
 			</li>
-			<li class:current={page.url.pathname === "/design"}>
-				<a href="/design">
+			<li class:current={page.url.pathname === "/resources"}>
+				<a href="/resources">
 					<div>
-						<span>Phase 1</span>
-						<p>(Design)</p>
+						<p>Resources</p>
 					</div>
 				</a>
 			</li>
-			<li class:current={page.url.pathname === "/emulation"}>
-				<a href="/emulation">
+			<li class:current={page.url.pathname === "/submission"}>
+				<a href="/submission">
 					<div>
-						<span>Phase 2</span>
-						<p>(Emulation)</p>
-					</div>
-				</a>
-			</li>
-			<li class:current={page.url.pathname === "/fabrication"}>
-				<a href="/fabrication">
-					<div>
-						<span>Phase 3</span>
-						<p>(Fabrication)</p>
+						<p>Submission</p>
 					</div>
 				</a>
 			</li>

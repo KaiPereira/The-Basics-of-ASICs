@@ -79,6 +79,14 @@ header {
 		max-width: var(--max-content-width);
 		color: var(--dark-paragraph-text);
 	}
+
+	img {
+		top: 0;
+		left: 30px;
+		position: absolute;
+		width: 150px;
+		user-select: none;
+	}
 }
 
 nav {

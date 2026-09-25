@@ -1,16 +1,13 @@
 ## Welcome traveller!
 
-If you've ever looked at a circuit board, you've probably seen a bunch of little chips on the board that we mostly call ICs or "Integrated Circuits". These vary wildly in complexity from small little timers to complex GPUs and a subset of these chips are ASICs or "Application Specific Integrated Circuits".
+Hack Club's been given a 1x1 chip on the wafer.space GF180MCU Run 3 MPW (multi-project-wafer) from DeepAI which means that we're going to create Hack Club's very own chip, for students 13 - 18 years old.
 
-ASICs have one goal, to do one thing very well like running a bitcoin mining algorithm extremely fast or literally just blinking LEDs constantly in a specific sequence. These chips just perform these monotonous tasks over and over again to offload tasks from your central processors and also do them much more efficiently than your processor could otherwise.
+Essentially how it works is that we'll split up the core area on the chip into over 100 individual tiles, which represent one of your designs, and then multiplex them onto the IO pins. We'll be receiving 1000 of these chips alongside breakout boards which you guys can design to do anything your mind imagines.
 
-Because these chips vary wildly in complexity, it's actually quite approachable to learn how to design them yourself, but it will require an open mind to understanding how chips work at a high level and determination to solve problems without cutting corners like AI generating code or copying existing code which offer no benefit to your learning. Feel free to use these tools in order to gain a better understanding of the subject, but excessive or incorrect use is only hurting yourself and it likely signals that you're biting off more than you can chew.
+Getting onto the chip is really easy, but will require a bit of time and dedication:
+- Design your first chip, we'll send you an IcePi Zero to test it! Check out the [submission page](/submission) for more info.
+- Design a second chip and a custom carrier board for the breakout board and we'll put your design onto the shared chip, and send it to you after it's done being fabricated at the foundry
 
-Success in learning ASIC design will be rewarded, and if you're 18 or under, I will:
-- Send you something cool for following and completing the tutorial in [phase 1](/design)
-- Ship you your own FPGA board to emulate your chip on real hardware if you can successively design your own *unique* ASIC in [phase 2](/emulation)
-- Fabricate one of your designs into an actual, physical chip once you've become proficient in [phase 3](/fabrication)
+Your chip design needs to be done by the end of November because fabrication is in December, so get working and I'll be building out the platform with guides, tutorials and resources, but the clock is ticking!!!
 
-The only request I have for if you want any of the rewards, is that you [create a write-up](/write-up) of how your ASIC works to help other travellers on the internet learn how chips work too!
-
-So if you have about 10 hours of free time and a determination to learn chip design, head on over to [phase 1](/design), where you'll design your first chip.
+If you're a bit overwhelmed by where to start, check out the [resources page](/resources).
