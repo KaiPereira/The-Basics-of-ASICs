@@ -1,6 +1,6 @@
 ## Welcome traveller!
 
-Hack Club's been given a 1x1 chip on the wafer.space GF180MCU Run 3 MPW (multi-project-wafer) from DeepAI which means that we're going to create Hack Club's very own chip, for students 13 - 18 years old.
+Hack Club's been given a 1x1 slot on the wafer.space GF180MCU Run 3 MPW (multi-project-wafer) from DeepAI which means that we're going to create Hack Club's very own chip, for students 13 - 18 years old.
 
 Essentially how it works is that we'll split up the core area on the chip into over 100 individual tiles, which represent one of your designs, and then multiplex them onto the IO pins. We'll be receiving 1000 of these chips alongside breakout boards which you guys can design to do anything your mind imagines.
 
