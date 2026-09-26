@@ -36,6 +36,13 @@
 					</div>
 				</a>
 			</li>
+			<li class:current={page.url.pathname === "/write-up"}>
+				<a href="/write-up">
+					<div>
+						<p>Write-up</p>
+					</div>
+				</a>
+			</li>
 			<li class:current={page.url.pathname === "/submission"}>
 				<a href="/submission">
 					<div>
@@ -55,10 +62,10 @@
 	<p>Last updated: {data.updated_at}</p>
 	<ul>
 		<li>
-			<a href="/resources">Resources</a>
-		</li>
-		<li>
-			<a href="/write-up">Making Write-Ups</a>
+			<a href="https://hackclub.com/" target="_blank" rel="noreferrer">
+				A Hack Club Program
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg>
+			</a>
 		</li>
 		<li>
 			<a href="https://github.com/KaiPereira/The-Basics-of-ASICs" target="_blank" rel="noreferrer">
