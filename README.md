@@ -10,4 +10,4 @@ Getting onto the chip is really easy, but will require a bit of time and dedicat
 
 Your chip design needs to be done by the end of November because fabrication is in December, so get working and I'll be building out the platform with guides, tutorials and resources, but the clock is ticking!!!
 
-Go to [asic.how](https://asic.how/) to learn more!
+Go to [asic.hackclub.com](https://asic.hackclub.com/) to learn more!
