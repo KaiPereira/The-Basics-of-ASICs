@@ -12,11 +12,11 @@
 
 <div class="bg-image">
 	<header>
-		<h1>The Basics of ASICs</h1>
-		<p>An initiative to get teenagers designing and manufacturing their own ASICs and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
-		<a href="https://hackclub.com/" target="_blank" rel="noreferrer">
+		<a href="https://hackclub.com/" target="_blank" rel="noreferrer" class="hack-club-logo">
 			<img src="/hack-club-logo.svg" alt="Hack Club Logo" />
 		</a>
+		<h1>The Basics of ASICs</h1>
+		<p>An initiative to get teenagers designing and manufacturing their own ASICs and chips by <a href="https://kaipereira.com/" target="_blank">Kai Pereira</a> and <a href="https://hackclub.com/" target="_blank">Hack Club!</a></p>
 	</header>
 	<nav>
 		<ul>

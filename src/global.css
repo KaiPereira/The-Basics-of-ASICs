@@ -80,12 +80,11 @@ header {
 		color: var(--dark-paragraph-text);
 	}
 
-	img {
+	.hack-club-logo {
 		top: 0;
 		left: 30px;
 		position: absolute;
 		width: 150px;
-		user-select: none;
 	}
 }
 
