@@ -14,7 +14,7 @@ The first thing I want to go over is AI usage. It's a really powerful thing, but
 
 Once you've done the above, it still might feel daunting to jump into your first design, but just approach it slowly, do thorough research and seek to understand what you're doing, and you'll do amazing!!
 
-*I would suggest using one of the Tiny Tapeout Verilog templates for your first design so you can bypass a lot of the manual generation steps for your physical ASIC design: https://tinytapeout.com/hdl/templates/ and download the OSS CAD suite which contains all the tools/software for designing ASICs: https://github.com/yosyshq/oss-cad-suite-build
+*I would suggest using the Tiny Tapeout Verilog templates for your first design so you can bypass a lot of the manual generation steps for your physical ASIC design: https://github.com/TinyTapeout/ttgf-verilog-template and download the OSS CAD suite which contains all the tools/software for designing ASICs: https://github.com/yosyshq/oss-cad-suite-build
 
 **Extra resources if you'd like to nerd out on this stuff like me:**
 - Veritasium video on how ASML machines work: https://www.youtube.com/watch?v=MiUHjLxm3V0
