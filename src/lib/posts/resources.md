@@ -16,5 +16,5 @@ Once you've done the above, it still might feel daunting to jump into your first
 
 *I would suggest using one of the Tiny Tapeout Verilog templates for your first design so you can bypass a lot of the manual generation steps for your physical ASIC design: https://tinytapeout.com/hdl/templates/ and download the OSS CAD suite which contains all the tools/software for designing ASICs: https://github.com/yosyshq/oss-cad-suite-build
 
-**Extra resources if you'd like to nerd into this stuff like me:**
+**Extra resources if you'd like to nerd out on this stuff like me:**
 - Veritasium video on how ASML machines work: https://www.youtube.com/watch?v=MiUHjLxm3V0
