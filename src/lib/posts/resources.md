@@ -18,3 +18,4 @@ Once you've done the above, it still might feel daunting to jump into your first
 
 **Extra resources if you'd like to nerd out on this stuff like me:**
 - Veritasium video on how ASML machines work: https://www.youtube.com/watch?v=MiUHjLxm3V0
+- BitLuni making silly ASICs! https://www.youtube.com/watch?v=DdF_nzMW_i8
