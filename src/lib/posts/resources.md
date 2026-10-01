@@ -20,3 +20,4 @@ Once you've done the above, it still might feel daunting to jump into your first
 - Veritasium video on how ASML machines work: https://www.youtube.com/watch?v=MiUHjLxm3V0
 - BitLuni making silly ASICs! https://www.youtube.com/watch?v=DdF_nzMW_i8
 - Simulate your design on an FPGA online (Your designs need to be simulated on your own hardware for shared chip submission though): https://fpgas.online/
+- IEEE Chipathon 2026 guides and info about working with GF180MCU https://github.com/sscs-ose/sscs-chipathon-2026/tree/main/docs
