@@ -9,3 +9,4 @@ A write-up should also help reinforce your own knowledge about your design, that
 Here's some examples of awesome write-ups on the Internet:
 - http://electronics.kitchen/misc/freesrp/
 - https://mitxela.com/projects/flipflip
+- https://essenceia.github.io/projects/blake2s_hashing_accelerator_a_solo_tapeout_journey/
